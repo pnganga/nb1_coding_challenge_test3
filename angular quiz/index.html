@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app = "testApp">
+<head>
+	<title>week 5 test</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="angularr.js"></script>
+	<script src="angular.js"></script>
+</head>
+<body>
+<section class="row" >
+
+	<div class="col-sm-12" ng-container="ctrl">
+	<h1>list of usernames</h1>
+	<ul class="col-sm-12"  ng-repeat="x in users">
+
+		<li class="text-center">{{x.name}}</li>
+		<li class="text-center">{{x.age}}</li>
+		<li class="text-center">{{x.img_url}}</li>
+		
+
+
+	</ul>
+	
+
+	</div>
+
+</section>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
