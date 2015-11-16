@@ -1,5 +1,5 @@
-var myApp = angular.module('testApp',[]);
-testApp.controller('ctrl', function($scope){
+var testApp = angular.module('testApp',[]);
+ testApp.controller('ctrl', function($scope){
 
 	$scope.users = [
   {
@@ -42,7 +42,7 @@ testApp.controller('ctrl', function($scope){
     age: 21,
     img_url: 'http://placehold.it/150x150'
   }
-]
+];
 
 
 

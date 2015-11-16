@@ -2,16 +2,16 @@
 <html ng-app = "testApp">
 <head>
 	<title>week 5 test</title>
-	<link rel="stylesheet" type="text/css" src="bootstrap-3.3.5-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" src="bootstrap-3.3.5-dist/css/bootstrap.min.css">
 	<script src="angularr.js"></script>
-	<script src="angular.js"></script>
+	<script src="jscontroller.js"></script>
 </head>
 <body>
 <section class="row" >
 
-	<div class="col-sm-12" ng-container="ctrl">
+	<div class="col-sm-12" ng-controller="ctrl">
 	<h1>list of usernames</h1>
-	<ul class="col-sm-12"  ng-repeat="x in users">
+	<ul class="col-sm-12"   ng-repeat="x in users">
 
 		<li class="text-center">{{x.name}}</li>
 		<li class="text-center">{{x.age}}</li>
@@ -25,6 +25,6 @@
 	</div>
 
 </section>
-<script src="bootstrap-3.3.5/js/bootstrap.js"></script>
+<script src="./bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
